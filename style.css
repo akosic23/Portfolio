@@ -1,0 +1,38 @@
+header, footer, h1, h2, h3, p {
+  text-align: center; 
+  color: white
+}
+
+.background {
+  font-size: 20;
+  background-color: darkcyan;
+  margin: auto; 
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',serif;
+}
+body {
+  background: rgb(178, 230, 230);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header h1{
+  height: 15px
+}
+
+h2{
+  font-size: 18px
+}
+
+ol, ul {
+  list-style-position: inside;
+  color: white
+}
+
+ol {
+  margin-left: 175px
+}
+
+ul{
+  margin-left: 100px
+}
+
