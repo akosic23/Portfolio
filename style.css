@@ -25,14 +25,8 @@ h2{
 
 ol, ul {
   list-style-position: inside;
-  color: white
+  color: white;
+  text-align: center
 }
 
-ol {
-  margin-left: 175px
-}
-
-ul{
-  margin-left: 100px
-}
 
