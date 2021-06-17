@@ -1,8 +1,11 @@
+/*adding multiple variables to one style*/
+
 header, footer, h1, h2, h3, p {
   text-align: center; 
   color: black
 }
 
+/* creating class to simplify code */
 .background {
   font-size: 20;
   background-color: darkcyan;
@@ -10,6 +13,8 @@ header, footer, h1, h2, h3, p {
   padding: 10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',serif;
 }
+
+
 body {
   background: rgb(178, 230, 230);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -24,9 +29,13 @@ h2{
 }
 
 ol, ul {
-  list-style-position: inside;
+  list-style-position: inside; /*positions the dots in the list inside with text alignment*/
   color: black;
   text-align: center
 }
+/* changing colors to links in webpage*/
 
-
+a:link    { color: blue;  }
+a:visited { color: purple;   }
+a:hover   { color: white; }
+a:active  { color: red;  }
